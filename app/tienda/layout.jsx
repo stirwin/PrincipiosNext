@@ -1,14 +1,14 @@
 import NavTienda from "@/components/NvTienda";
 
-
 export const metadata = {
-    title:'tienda'
-}
+  title: "tienda",
+};
 
-export default function TiendaLayout({children}){
-
-    return <>
-    <NavTienda/>
-    {children}
+export default function TiendaLayout({ children }) {
+  return (
+    <>
+      <NavTienda />
+      {children}
     </>
+  );
 }

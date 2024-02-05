@@ -22,6 +22,11 @@ export default function RootLayout({ children }) {
       
       <body className={poppins.className}> 
        <Navabar/>
+       <h1 className="text-red-400">hpña</h1>
+       <h2>hpña</h2>
+       <h1>hpña</h1>
+       <h1>hpña</h1>
+       <h1>hpña</h1>
         {children}</body>
     </html>
   )
