@@ -6,5 +6,6 @@ export default function Navabar(){
     <li> <Link href="/">home</Link></li>
     <li> <Link href="/about">abut</Link></li>
     <li> <Link href="/tienda">tienda</Link></li>
+    <li> <Link href="/post">post</Link></li>
   </ul>
 } 
