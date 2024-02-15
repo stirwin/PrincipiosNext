@@ -12,8 +12,8 @@ async function page({ params }) {
   const posts = await CardId(params.id);
 
   return (
-    <div>
-      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow mb-3">
+    <div className="p-4">
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg  mb-3">
         <a href="#">
           <Image
             class="rounded-t-lg"
