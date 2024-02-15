@@ -18,7 +18,7 @@ async function PostPage() {
 
   return (
     //contenedor de la cards
-    <div>
+    <div className="grid grid-cols-3 px-8 gap-4 mt-3">
       {posts.map((post) => (
         <Postcard post={post} key={post.id}/>
       ))}
